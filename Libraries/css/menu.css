@@ -1,0 +1,137 @@
+html, body, .page-content{
+  height: 100%;  
+  padding: 0;
+}
+.page-wrapper .page-content{
+    display: block;
+}
+.p-5 {
+  padding: 1rem !important;
+  height: 100%;  
+}
+.container-fluid p-5{
+    height: 100%; 
+}
+*{
+  font-family: Arial;
+  font-size: 12px;
+}
+.default-theme .sidebar-wrapper {
+  background-color: Black; /* COLOR DE FONDO */
+}
+.default-theme .sidebar-wrapper .sidebar-item {
+  border-top: 1px solid Blue; /* LINEA DESPUES DEL NOMBRE DE USUARIO */
+}
+.default-theme .sidebar-wrapper .sidebar-item:first-child {
+  border-top: none;
+}
+.default-theme .sidebar-wrapper a:not(.dropdown-item),
+.default-theme .sidebar-wrapper .sidebar-header,
+.default-theme .sidebar-wrapper .sidebar-search input,
+.default-theme .sidebar-wrapper .sidebar-search i {
+  color: White; /* COLOR DEL TEXTO */
+}
+.default-theme .sidebar-wrapper a:not(.dropdown-item):hover,
+.default-theme .sidebar-wrapper .sidebar-menu li.active > a {
+  color: Aqua; /* COLOR DEL HOVER */
+}
+.default-theme .sidebar-wrapper .sidebar-search input.search-menu,
+.default-theme .sidebar-wrapper .sidebar-search .input-group-text {
+  background-color: Grey; /* NO CAMBIA COLOR */
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-left: 1px;
+}
+.default-theme .sidebar-wrapper .sidebar-menu i,
+.default-theme .sidebar-wrapper .sidebar-menu a:hover i,
+.default-theme .sidebar-wrapper .sidebar-menu a:hover:before,
+.default-theme .sidebar-wrapper .sidebar-menu li.active a i {
+  color: White; /* COLOR EN LOS ICONOS */
+}
+.default-theme .sidebar-wrapper .sidebar-menu ul li a i {
+  background-color: White; /* NO CAMBIA COLOR */
+}
+.default-theme .sidebar-wrapper .sidebar-menu .sidebar-dropdown div {
+  background-color: Grey; /* COLOR DE FONDO DE SUBMODULO */
+}
+.default-theme .sidebar-wrapper .sidebar-menu .header-menu span {
+  color: White; /* TÍTULOS EN EL MENÚ */
+}
+.default-theme .sidebar-wrapper .sidebar-footer {
+  background-color: Blue; /* FONDO DEL FOOTER */
+  -webkit-box-shadow: 0px -1px 5px red; /* NO HAY */
+  box-shadow: 0px -1px 5px red; /* NO HAY */
+  border-top: 1px solid red; /* NO HAY */
+}
+.default-theme .sidebar-wrapper .sidebar-footer > div:first-child {
+  border-left: none;
+}
+.default-theme .sidebar-wrapper .sidebar-footer > div:last-child {
+  border-right: none;
+}
+
+.default-theme.toggled #close-sidebar {
+  color: White; /* NO SE OCUPA */
+}
+
+.default-theme.toggled #close-sidebar:hover {
+  color: White; /* NO SE OCUPA */
+}
+
+.default-theme .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.default-theme
+  .mCSB_scrollTools
+  .mCSB_dragger.mCSB_dragger_onDrag
+  .mCSB_dragger_bar,
+.default-theme .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background-color: Blue; /* COLOR A LA BARRA DE DESPLAZAMIENTO */
+  border-radius: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.default-theme .mCSB_scrollTools .mCSB_draggerRail {
+  background-color: transparent; /* COLOR AL RESTO DE LA BARRA DE DESPLAZAMIENTO */
+}
+
+.default-theme.sidebar-bg .sidebar-wrapper:before {
+
+}
+
+.default-theme.sidebar-bg .sidebar-wrapper a:not(.dropdown-item),
+.default-theme.sidebar-bg .sidebar-wrapper .sidebar-header,
+.default-theme.sidebar-bg .sidebar-wrapper .sidebar-search input{
+  color: White; /* COLOR A TODO EL TEXTO DEL MENÚ */
+}
+
+.default-theme.sidebar-bg .sidebar-wrapper a:not(.dropdown-item):hover,
+.default-theme.sidebar-bg .sidebar-wrapper .sidebar-menu li.active > a {
+  color: Aqua; /* COLOR A EL HOVER DEL TEXTO */
+}
+
+.default-theme.sidebar-bg .sidebar-wrapper .sidebar-item {
+  border-color: Blue; /* COLOR A LA LINEA EN EL HEAD DE LA IMÁGEN */
+}
+
+.default-theme.sidebar-bg .sidebar-wrapper .sidebar-search input.search-menu,
+.default-theme.sidebar-bg .sidebar-wrapper .sidebar-search .input-group-text {
+  background-color: Yellow; /* NO SE PARA QUE ES */
+}
+
+.default-theme.sidebar-bg .sidebar-wrapper .sidebar-menu .sidebar-dropdown div {
+  background-color: Grey; /* COLOR DE FONDO AL DESPLEGABLE DE LOS MENÚ */
+}
+
+.default-theme.sidebar-bg .sidebar-wrapper .sidebar-menu ul li a i {
+  background-color: Transparent; /* COLOR DE FONDO A LOS CUADROS DEL ICONO */
+}
+
+.default-theme.sidebar-bg .sidebar-wrapper .sidebar-footer {
+  background-color: Blue; /* COLOR A LA BARRA DE AJUSTES Y CIERRE DE SESION */
+  -webkit-box-shadow: 0px -1px 5px red; /* NO SE PARA QUE ES */
+  box-shadow: 0px -1px 5px ; /* NO SE PARA QUE ES */
+  border-top: 1px solid ; /* NO SE PARA QUE ES */
+}
